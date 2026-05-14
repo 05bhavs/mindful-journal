@@ -1,50 +1,111 @@
-# Welcome to your Expo app 👋
+# 🧠 Mindful Journal
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Mindful Journal is a cross-platform mobile application built using **Expo (React Native)** that helps users build a consistent journaling habit, track their moods, and reflect on their emotional well-being. The app is designed with privacy in mind and includes a **biometric lock** to secure personal entries.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- 📖 **Personal Journal**
+  - Create, edit, and delete daily journal entries
+  - Organize thoughts in a clean and minimal interface
 
-2. Start the app
+- 😊 **Mood Tracking**
+  - Log daily moods
+  - View emotional patterns over time
+  - Gain insights into mental well-being
 
-   ```bash
-   npx expo start
-   ```
+- 🔐 **Biometric Security**
+  - Face ID / Fingerprint authentication
+  - Keeps journal entries private and secure
 
-In the output, you'll find options to open the app in a
+- 📊 **Insights Dashboard**
+  - Visualize mood trends and journaling activity
+  - Track emotional consistency
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- 🌙 **Modern UI**
+  - Clean and minimal design
+  - Dark mode support
+  - Smooth and responsive user experience
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠️ Tech Stack
 
-When you're ready, run:
+- **React Native (Expo)**
+- **TypeScript**
+- **Expo Router**
+- **Async Storage**
+- **Context API**
+- **Expo Local Authentication**
+- **React Native Components**
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📁 Project Structure
+app/ # App screens (Expo Router based navigation)
+components/ # Reusable UI components
+context/ # Global state management (Theme, etc.)
+services/ # Storage logic (journal & mood handling)
+constants/ # Theme colors and configuration
+types/ # TypeScript type definitions
+---
 
-## Learn more
+## 🔐 Privacy & Security
 
-To learn more about developing your project with Expo, look at the following resources:
+- Biometric authentication ensures only the user can access the app
+- All journal and mood data is stored locally on the device
+- No external database or cloud storage is used by default
+- User data remains private and offline-first
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 📱 Screens
 
-Join our community of developers creating universal apps.
+- Home Dashboard
+- Journal Entries List
+- Create / Edit Journal Entry
+- Mood Tracker
+- Insights & Analytics
+- Settings
+- Biometric Lock Screen
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+git clone https://github.com/05bhavs/mindful-journal.git
+cd mindful-journal
+
+2. Install dependencies
+npm install
+
+3. Start the development server
+npx expo start
+
+---
+
+🎯 Future Improvements
+Cloud sync for journal backup
+AI-based mood insights and suggestions
+Streaks and habit tracking
+Push notifications for journaling reminders
+Export journal entries (PDF / CSV)
+
+---
+
+Contributing:
+
+Contributions are welcome! If you’d like to improve the project:
+
+Fork the repository
+Create a new branch
+Make your changes
+Submit a pull request
+
+---
+
+💡 Author
+
+Built with ❤️ by Bhavya
