@@ -43,12 +43,12 @@ Mindful Journal is a cross-platform mobile application built using **Expo (React
 ---
 
 ## 📁 Project Structure
-app/ # App screens (Expo Router based navigation)
-components/ # Reusable UI components
-context/ # Global state management (Theme, etc.)
-services/ # Storage logic (journal & mood handling)
-constants/ # Theme colors and configuration
-types/ # TypeScript type definitions
+*app/ # App screens (Expo Router based navigation)
+*components/ # Reusable UI components
+*context/ # Global state management (Theme, etc.)
+*services/ # Storage logic (journal & mood handling)
+*constants/ # Theme colors and configuration
+*types/ # TypeScript type definitions
 ---
 
 ## 🔐 Privacy & Security
