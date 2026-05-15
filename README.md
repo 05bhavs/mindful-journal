@@ -87,11 +87,11 @@ npx expo start
 ---
 
 🎯 Future Improvements
-Cloud sync for journal backup
-AI-based mood insights and suggestions
-Streaks and habit tracking
-Push notifications for journaling reminders
-Export journal entries (PDF / CSV)
+ Cloud sync for journal backup ;
+ AI-based mood insights and suggestions ;
+ Streaks and habit tracking ;
+ Push notifications for journaling reminders ;
+ Export journal entries (PDF / CSV) ;
 
 ---
 
@@ -99,13 +99,13 @@ Contributing:
 
 Contributions are welcome! If you’d like to improve the project:
 
-Fork the repository
-Create a new branch
-Make your changes
-Submit a pull request
+ Fork the repository ;
+ Create a new branch ;
+ Make your changes ;
+ Submit a pull request ;
 
 ---
 
 💡 Author
 
-Built with ❤️ by Bhavya
+Built by Bhavya
